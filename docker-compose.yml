@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  ide:
+    image: torinasakura/cloud9
+    volumes:
+      - ./:/workspace
+    ports:
+      - "7000:80"
